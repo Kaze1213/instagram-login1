@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: instagram-login
@@ -6,4 +7,14 @@ services:
     startCommand: node server.js
     envVars:
       - key: PORT
+=======
+services:
+  - type: web
+    name: instagram-login
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+>>>>>>> d2a1eaeb4748dbd6e6e973a72f699d2ebbe43e00
         value: 10000
